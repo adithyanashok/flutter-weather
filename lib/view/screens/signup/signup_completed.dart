@@ -30,7 +30,7 @@ class SignupCompleted extends StatelessWidget {
                         'Congratulations',
                         style: GoogleFonts.plusJakartaSans(
                           fontWeight: FontWeight.w900,
-                          fontSize: 32,
+                          fontSize: 25,
                           color: HexColor('#101010'),
                         ),
                       ),

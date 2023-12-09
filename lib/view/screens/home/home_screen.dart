@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     // Weather Information Container
                     LiveWeatherWidget(size: size),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 30),
                     // Forecast Report Button
                     ForcastReportButton(
                       cityId: cityId,
