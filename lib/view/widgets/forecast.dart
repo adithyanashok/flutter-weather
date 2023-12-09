@@ -56,7 +56,7 @@ class ForecastRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 150,
-      width: 80,
+      width: 70,
       color: Colors.transparent,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -71,7 +71,7 @@ class ForecastRow extends StatelessWidget {
           InterText(
             text: time,
             fontWeight: FontWeight.normal,
-            fontSize: 15,
+            fontSize: 12,
             color: Colors.white,
           ),
         ],

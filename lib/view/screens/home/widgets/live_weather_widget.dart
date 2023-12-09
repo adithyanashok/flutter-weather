@@ -21,7 +21,7 @@ class LiveWeatherWidget extends StatelessWidget {
     return Align(
       alignment: Alignment.center,
       child: Container(
-        margin: const EdgeInsets.only(top: 40),
+        margin: const EdgeInsets.only(top: 10),
         width: size.width * 0.9,
         height: 500,
         decoration: BoxDecoration(

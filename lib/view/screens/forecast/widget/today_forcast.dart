@@ -27,7 +27,7 @@ class TodayForecast extends StatelessWidget {
         ),
         Stack(
           children: [
-            const GlassContainer(width: 80, height: 150),
+            const GlassContainer(width: 70, height: 150),
             ForecastRow(
               value: '${weather['data3']['temperature']}\u2103',
               image: 'assets/images/icon11.png',

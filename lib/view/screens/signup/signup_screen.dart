@@ -40,7 +40,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 // Text above input fields
                 InterText(
                   text: 'Enter your email address and password',
-                  fontSize: 17,
+                  fontSize: 15,
                   fontWeight: FontWeight.w400,
                   color: HexColor('#808080'),
                 ),

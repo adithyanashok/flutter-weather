@@ -70,12 +70,12 @@ class HomeScreen extends StatelessWidget {
                     // Weather Icon
                     Padding(
                       padding:
-                          const EdgeInsets.only(left: 1, right: 1, top: 20),
+                          const EdgeInsets.only(left: 1, right: 1, top: 10),
                       child: Image.asset('assets/images/icon6.png'),
                     ),
                     // Weather Information Container
                     LiveWeatherWidget(size: size),
-                    const SizedBox(height: 17),
+                    const SizedBox(height: 20),
                     // Forecast Report Button
                     ForcastReportButton(
                       cityId: cityId,
